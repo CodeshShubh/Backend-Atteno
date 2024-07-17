@@ -26,7 +26,7 @@ connectDB();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://atteno.vercel.app/', // Your frontend URL
+    origin: 'https://atteno.vercel.app', // Your frontend URL
   credentials: true,
 }));
 app.use(express.urlencoded({
